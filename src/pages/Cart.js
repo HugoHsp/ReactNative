@@ -9,7 +9,6 @@ const DetailRecipePage = ({ route, navigation }) => {
 
     const deleteFromCart = async (id) => {
         setCart(cart.filter(item => item.id !== id));
-        console.log(cart);
     }
 
     return (
